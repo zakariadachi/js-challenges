@@ -767,6 +767,7 @@ function firstEmployee(employees) {
     return employees[0].firstName;
 }
 
+console.log(firstEmployee(employees))
 
 
 
@@ -774,5 +775,25 @@ function firstEmployee(employees) {
 
 
 function lastEmployee(employees){
-  return (employees[employees.lenght-1].lastName)
+  return (employees[employees.length - 1].lastName)
 }
+
+console.log(lastEmployee(employees))
+
+
+
+
+
+
+
+function employeeId5(employees,id){
+  for(let i=0;i<employees.length;i++){
+    if(employees[i].id===id)
+      return employees[i].department;
+  }
+}
+
+console.log(employeeId5(employees,5))
+
+
+
