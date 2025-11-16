@@ -804,3 +804,19 @@ function employeesNumber(employees){
 }
 
 console.log(employeesNumber(employees))
+
+
+
+
+
+
+function inactiveEmployees(employees){
+  for(let i = 0; i < employees.length; i++) {
+    if(!employees[i].isActive) {
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log(inactiveEmployees(employees));
