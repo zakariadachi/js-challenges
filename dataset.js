@@ -797,3 +797,10 @@ console.log(employeeId5(employees,5))
 
 
 
+
+
+function employeesNumber(employees){
+  return employees.length;
+}
+
+console.log(employeesNumber(employees))
