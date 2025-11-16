@@ -763,6 +763,16 @@ const employees = [
 
 
 
-function getFirstEmployeeFirstName(employees) {
+function firstEmployee(employees) {
     return employees[0].firstName;
+}
+
+
+
+
+
+
+
+function lastEmployee(employees){
+  return (employees[employees.lenght-1].lastName)
 }
